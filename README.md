@@ -1,1 +1,1 @@
-<h1 align="center">Python - Hello, World</h1>
+<h1 align="center">Python 🐍 - Hello, World</h1>
