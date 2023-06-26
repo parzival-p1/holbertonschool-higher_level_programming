@@ -12,5 +12,5 @@ def roman_to_int(roman_string):
             result -= mapper[roman_string[idx]]
         else:
             result += mapper[roman_string[idx]]
-            
+
     return result
