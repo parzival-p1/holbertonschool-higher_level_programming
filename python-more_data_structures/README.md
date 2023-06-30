@@ -30,15 +30,7 @@ __0. Squared simple__
 	- Initial matrix should not be modified
 	- You are not allowed to import any module
 	- You are allowed to use regular loops, ``map``, etc.
-
-__1. Search and replace__
-- Write a function that replaces all occurrences of an element by another in a new list
-	- Prototype: ``def search_replace(my_list, search, replace):``
-	- ``my_list`` is the initial list
-	- ``search`` is the element to replace in the list
-	- ``replace`` is the new element
-	- You are not allowed to import any module
-'''
+~~~
 guillaume@ubuntu:~/$ cat 0-main.py
 #!/usr/bin/python3
 square_matrix_simple = __import__('0-square_matrix_simple').square_matrix_simple
@@ -57,8 +49,16 @@ guillaume@ubuntu:~/$ ./0-main.py
 [[1, 4, 9], [16, 25, 36], [49, 64, 81]]
 [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 guillaume@ubuntu:~/$ 	
-'''	    
+~~~	
 
+__1. Search and replace__
+- Write a function that replaces all occurrences of an element by another in a new list
+	- Prototype: ``def search_replace(my_list, search, replace):``
+	- ``my_list`` is the initial list
+	- ``search`` is the element to replace in the list
+	- ``replace`` is the new element
+	- You are not allowed to import any module
+	    
 __2. Unique addition__
 - Write a function that adds all unique integers in a list (only once for each integer)
 	
