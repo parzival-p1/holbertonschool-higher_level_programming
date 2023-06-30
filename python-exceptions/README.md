@@ -1,4 +1,3 @@
-<h1 align="center"> Python 🐍 - Exceptions</h1>
 <h1 align="center">Python 🐍 -  Exceptions</h1>
 
 ### Recommended Links 🔗
