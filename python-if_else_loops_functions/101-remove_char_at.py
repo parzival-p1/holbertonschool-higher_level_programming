@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 def remove_char_at(str, n):
-    if n >= 0:
-        new_str = str[:n] + str[n + 1:]
-        return (new_str)
-    else:
-        return (str)
+    new_str = ""
+    for char in range(len(str)):
+        if char != n:
+            new_str += str[char]
+    return new_str
+print(remove_char_at('Hola', 2))
+
